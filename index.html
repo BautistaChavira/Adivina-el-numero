@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Juego de adivinanza</title>
+  <script src="Adivinanza.js" defer></script>
+  <link rel="stylesheet" href="Adivinanza.css">
+</head>
+<body>
+  <div class="container">
+    <h1>¡Adivina el número!</h1>
+    
+    <p>  ... del 1 al 100 ... </p>
+    <label for="guessField">Adivina el número:</label>
+    <input type="text" id="guessField" class="guessField" />
+
+    <input type="submit" value="Enviar respuesta" class="guessSubmit" />
+
+    <div class="resultParas">
+      <p class="guesses"></p>
+      <p class="lastResult"></p>
+      <p class="lowOrHi"></p>
+    </div>
+  </div>
+</body>
+</html>
